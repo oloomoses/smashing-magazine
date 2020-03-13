@@ -118,6 +118,31 @@ footer {
 }
 
 .footer-links {
+  /* width: 50%; */
+  margin: 30px;
+  padding-right: 50px;
+  /* display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto;
+  justify-content: center;
+  align-items: center; */
+
+}
+
+.footer-links a {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.box {
+  position: absolute;
+  top: 400px;
+  left: 200px;
+  width: 100px;
+  height: 200px;
+  background-color: #dcdcdc;
   
 }
 
