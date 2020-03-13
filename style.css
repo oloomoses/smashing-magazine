@@ -19,8 +19,10 @@ header {
   justify-content: space-between;
 }
 
-header a {
+header a,
+main a {
   text-decoration: none;
+  color: white
 }
 
 .logo {
@@ -62,7 +64,51 @@ header a {
   height: 60px;
 }
 
-h3 {
+h3,
+h2 {
   font-family: Dosis;
   font-size: 30px;
+}
+
+main {
+  background-color: #eee;
+}
+
+.articles-container {
+  display: grid;
+  grid-auto-flow: column;
+  background: silver;
+  color:white
+}
+
+
+article {
+  display:flex;
+  background: darkgray;
+  flex-direction: column;
+  height: 400px;
+}
+
+.author {
+  display: flex;
+  flex-direction: row;
+  color:white;
+  background: gray;
+  align-items: center;
+  padding: 1em;
+}
+
+article h2,
+article ul{
+  background: gray;
+ }
+article img {
+  width: 50px;
+}
+article ul{
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 20px;
 }
