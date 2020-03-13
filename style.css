@@ -53,6 +53,8 @@ header a {
 
 .nav li a {
   text-align: center;
+  color: white;
+  
 }
 
 .nav li a img {
@@ -60,6 +62,7 @@ header a {
   height: 60px;
 }
 
-h4 {
+h3 {
   font-family: Dosis;
+  font-size: 30px;
 }
