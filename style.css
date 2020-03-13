@@ -78,6 +78,7 @@ footer {
 }
 
 .col-12 {
+  position: relative;
   width: 80%;
   text-align: center;
 
@@ -113,6 +114,10 @@ footer {
 
 .footer-notes {
   clear: both;
-  padding-top: 100px;
+  padding-top: 80px;  
+}
+
+.footer-links {
+  
 }
 
