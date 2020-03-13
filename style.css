@@ -66,3 +66,24 @@ h3 {
   font-family: Dosis;
   font-size: 30px;
 }
+
+footer {  
+  height: 700px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* color: white; */
+}
+
+.col-12 {
+  
+}
+
+.col-12 h4 {
+  color: white;
+  font-family: cursive;
+  font-size: larger;
+  text-align: center;
+}
