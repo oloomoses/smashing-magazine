@@ -71,13 +71,13 @@ h2 {
 }
 
 main {
-  /* background-color: #eee; */
+  margin: auto;
 }
 
 .articles-container {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template: auto auto/ auto auto;
   color:white
 }
 
@@ -96,12 +96,12 @@ main {
   padding:5px
 }
 
-article {
+.articles-container article {
   display:flex;
   flex-direction: column;
   height: 600px;
   min-width: 400px;
-  max-width: 600px;
+  /* max-width: 600px; */
 
   background:linear-gradient( to bottom right, #a0a0a0, #b0b0b0 );
   padding: 120px;
@@ -131,6 +131,23 @@ article ul{
   list-style: none;
   padding: 20px;
   gap:1px
+}
+.cover{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.cover-abstracts {
+  background-color: white;
+}
+.cover-images {
+  background-attachment: grey;
+  column-span: 2;
+}
+
+
+.comment {
+  font-size: 20px;
+  padding-left: 10px;
 }
 
 footer {  
