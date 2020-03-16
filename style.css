@@ -133,6 +133,7 @@ main {
   gap:1px
 }
 
+
 .cover {
   width: 80%;
   margin: auto;
@@ -171,6 +172,78 @@ main {
 .comment {
   font-size: 20px;
   padding-left: 10px;
+}
+
+.separator-link {
+  text-decoration: underline solid red;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 1em;
+  background: #f0f0f0;
+}
+
+.advertising {
+  width: 100%;
+  margin: auto;
+  background: #b0b0b0;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.white-heading {
+  text-decoration: underline;
+  color: white;
+  background: #a0a0a0;
+  padding: 10px;
+}
+
+.dark-heading {
+  color: black;
+  background: #a0a0a0;
+  padding: 10px;
+}
+
+.advertising-img {
+  margin: auto;
+  width: 400px;
+  height: 400px;
+  background: #a0a0a0;
+
+}
+
+.advertising p {
+  font-size: 20px;
+  width: 50%;
+  margin: auto;
+  background-color: #a0a0a0;
+}
+
+.pers-of-week {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  background: #f0f0f0;
+  margin: 5%;
+  line-height: 1.5em;
+}
+
+.pers-of-week {
+  background: #b0b0b0;
+}
+
+.pers-of-week-img {
+  width: 200px;
+  height: 200px;
+  background: #a0a0a0;
+}
+
+.bottom-main {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 5%;
+}
+
+.bottom-articles {
+  display: flex
 }
 
 footer {  
