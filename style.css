@@ -19,8 +19,7 @@ header {
   justify-content: space-between;
 }
 
-header a,
-main a {
+header a {
   text-decoration: none;
   color: white
 }
@@ -96,7 +95,7 @@ main {
   padding:5px
 }
 
-.articles-container article {
+.articles-container .articles {
   display:flex;
   flex-direction: column;
   height: 600px;
@@ -247,4 +246,26 @@ footer {
   height: 200px;
   background-color: #dcdcdc;
   
+}
+
+.curated {
+  width: 100%;
+  /* margin: 3em; 
+  padding: 3em; */
+  background-color: #444;
+}
+
+.curated-box{
+  margin: 0 3em;
+  padding: 0 3em;
+  /* height: 500px;
+  background-color: lightgrey; */
+  display: flex;
+  flex-direction: row;
+}
+
+.curated-article {
+  height: 600px;
+  background-color: lightgrey;
+  margin-right: 20px;
 }
