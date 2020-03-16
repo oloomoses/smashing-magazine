@@ -101,8 +101,6 @@ main {
   flex-direction: column;
   height: 600px;
   min-width: 400px;
-  /* max-width: 600px; */
-
   background:linear-gradient( to bottom right, #a0a0a0, #b0b0b0 );
   padding: 120px;
 }
@@ -111,20 +109,22 @@ main {
   display: flex;
   flex-direction: row;
   color:white;
-  /* background:blue; */
   align-items: center;
   padding: 1em;
   gap:1px
 }
 
-article h2,
-article ul{
+.articles h2,
+.articles ul,
+.articles .author {
   background: gray;
- }
-article img {
+}
+
+.articles img {
   width: 50px;
 }
-article ul{
+
+.articles ul {
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
@@ -132,21 +132,41 @@ article ul{
   padding: 20px;
   gap:1px
 }
+
 .cover {
-  width: auto;
+  width: 80%;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
   justify-items: stretch;
-}
-.cover-abstracts {
-  background-color: white;
-}
-.cover-images {
-  background-attachment: grey;
-  grid-column: span2;
+  grid-auto-flow: row;
 }
 
+.cover-abstracts {
+  padding: 20%;
+  background:linear-gradient( to bottom right, #f0f0f0, #fefefe );
+  line-height: 1.5em;
+}
+
+.cover-abstracts h4,
+.cover-abstracts h6,
+.cover-abstracts p {
+  background: #e0e0e0;
+}
+.cover-images {
+  background: grey;
+  min-height: 400px;
+  grid-column: span 2;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+.cover-img{
+  margin:auto;
+  width: 200px;
+  height: 200px;
+  background-color: #444;
+}
 
 .comment {
   font-size: 20px;
@@ -158,9 +178,7 @@ footer {
   background-color: grey;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: center;
-  /* color: white; */
 }
 
 .col-12 {
@@ -176,7 +194,6 @@ footer {
   color: white;
   font-family: cursive;
   font-size: larger;
-  /* text-align: center; */
 }
 
 .col-12 ul {
