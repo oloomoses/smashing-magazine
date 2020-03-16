@@ -118,7 +118,8 @@ main {
 }
 
 article h2,
-article ul{
+article ul,
+article .author {
   background: gray;
  }
 article img {
@@ -133,20 +134,38 @@ article ul{
   gap:1px
 }
 .cover {
-  width: auto;
+  width: 80%;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
   justify-items: stretch;
+  grid-auto-flow: row;
 }
 .cover-abstracts {
-  background-color: white;
-}
-.cover-images {
-  background-attachment: grey;
-  grid-column: span2;
+  padding: 20%;
+  background:linear-gradient( to bottom right, #f0f0f0, #fefefe );
+  line-height: 1.5em;
 }
 
+.cover-abstracts h4,
+.cover-abstracts h6,
+.cover-abstracts p {
+  background: #e0e0e0;
+}
+.cover-images {
+  background: grey;
+  min-height: 400px;
+  grid-column: span 2;
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+}
+.cover-img{
+  margin:auto;
+  width: 200px;
+  height: 200px;
+  background-color: #444;
+}
 
 .comment {
   font-size: 20px;
