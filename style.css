@@ -132,16 +132,19 @@ article ul{
   padding: 20px;
   gap:1px
 }
-.cover{
+.cover {
+  width: auto;
+  margin: auto;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: stretch;
 }
 .cover-abstracts {
   background-color: white;
 }
 .cover-images {
   background-attachment: grey;
-  column-span: 2;
+  grid-column: span2;
 }
 
 
