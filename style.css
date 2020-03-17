@@ -321,6 +321,13 @@ footer {
   padding-bottom: 10px;
 }
 
+.col-12 ul li a {
+  text-decoration: none;
+  margin-right: 20px;
+  font-size: 25px;
+  color: white;
+}
+
 .nav .li a {
   text-align: center;
   color: white;
@@ -329,13 +336,6 @@ footer {
 .nav .li a img {
   width: 50px;
   height: 60px;
-}
-
-.col-12 ul li a {
-  text-decoration: none;
-  margin-right: 20px;
-  font-size: 25px;
-  color: white;
 }
 
 .footer-notes {
