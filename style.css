@@ -59,10 +59,22 @@ header a {
   justify-content: center;
 }
 
+h4,
 h3,
 h2 {
-  font-family: Dosis "Times New Roman", Times, serif;
+  font-family: Dosis, "Times New Roman", Times, serif;
+}
+
+h4 {
   font-size: 30px;
+  line-height: 1.5em
+}
+h3 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 40px;
 }
 
 main {
@@ -137,21 +149,35 @@ main {
   width: 80%;
   margin: auto;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: repeat(4, auto);
   justify-items: stretch;
   grid-auto-flow: row;
 }
 
 .cover-abstracts {
-  padding: 20%;
-  background: linear-gradient(to bottom right, #f0f0f0, #fefefe);
+  padding: 5%;
+  background: linear-gradient(to bottom right, #e8e8e8, #f8f8f8);
   line-height: 1.5em;
+  height: 400px
 }
 
 .cover-abstracts h4,
 .cover-abstracts h6,
-.cover-abstracts p {
+.cover-abstracts p,
+.cover-arrow {
   background: #e0e0e0;
+}
+
+.cover-arrow {
+  margin-top: 40px;
+  width: 50px;
+  height: 50px;
+  color: red;
+}
+
+.cover-arrow i {
+  margin-top: 50%;
+  margin-left: 15%;
 }
 
 .cover-images {
