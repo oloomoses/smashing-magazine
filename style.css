@@ -8,6 +8,7 @@ body {
   width: 100%;
   display: flex;
   flex-direction: column;
+  font-family: "Times New Roman", Times, serif;
 }
 
 header {
@@ -58,19 +59,9 @@ header a {
   justify-content: center;
 }
 
-.nav li a {
-  text-align: center;
-  color: white;
-}
-
-.nav li a img {
-  width: 50px;
-  height: 60px;
-}
-
 h3,
 h2 {
-  font-family: Dosis;
+  font-family: Dosis "Times New Roman", Times, serif;
   font-size: 30px;
 }
 
@@ -103,7 +94,7 @@ main {
 .main-title span {
   background-color: white;
   z-index: 10;
-  padding: 5px
+  padding: 5px;
 }
 
 .articles-container .articles {
@@ -111,7 +102,7 @@ main {
   flex-direction: column;
   height: 600px;
   min-width: 400px;
-  background: linear-gradient( to bottom right, #a0a0a0, #b0b0b0 );
+  background: linear-gradient(to bottom right, #a0a0a0, #b0b0b0);
   padding: 120px;
 }
 
@@ -120,7 +111,7 @@ main {
   flex-direction: row;
   align-items: center;
   padding: 1em;
-  gap: 1px
+  gap: 1px;
 }
 
 .articles h2,
@@ -139,7 +130,7 @@ main {
   flex-wrap: wrap;
   list-style: none;
   padding: 20px;
-  gap: 1px
+  gap: 1px;
 }
 
 .cover {
@@ -153,7 +144,7 @@ main {
 
 .cover-abstracts {
   padding: 20%;
-  background: linear-gradient( to bottom right, #f0f0f0, #fefefe );
+  background: linear-gradient(to bottom right, #f0f0f0, #fefefe);
   line-height: 1.5em;
 }
 
@@ -162,6 +153,7 @@ main {
 .cover-abstracts p {
   background: #e0e0e0;
 }
+
 .cover-images {
   background: grey;
   min-height: 400px;
@@ -170,8 +162,9 @@ main {
   text-align: center;
   text-decoration: underline;
 }
-.cover-img{
-  margin:auto;
+
+.cover-img {
+  margin: auto;
   width: 200px;
   height: 200px;
   background-color: #444;
@@ -217,7 +210,6 @@ main {
   height: 400px;
   background: #a0a0a0;
   border-radius: 20px;
-
 }
 
 .advertising p {
@@ -235,28 +227,24 @@ main {
   line-height: 1.5em;
 }
 
-.pers-of-week {
-  background: #b0b0b0;
-}
-
 .pers-of-week-img {
   width: 200px;
   height: 200px;
   background: #a0a0a0;
-  border-radius: 20px
+  border-radius: 20px;
 }
 
 .bottom-main {
   display: grid;
   grid-template-columns: auto auto;
   margin: 5%;
- }
+}
 
 .bottom-articles {
   display: grid;
   padding: 10%;
   grid-template-columns: 60px auto;
-  background: linear-gradient( to bottom right, #f0f0f0, #fefefe);
+  background: linear-gradient(to bottom right, #f0f0f0, #fefefe);
 }
 
 .bottom-art-img {
@@ -266,8 +254,7 @@ main {
   border-radius: 10px;
 }
 
-
-footer {  
+footer {
   height: 700px;
   background-color: grey;
   display: flex;
@@ -279,12 +266,11 @@ footer {
   position: relative;
   width: 80%;
   text-align: center;
-
 }
 
 .col-12 h4 {
   margin-top: 100px;
-  margin-bottom: 70px;  
+  margin-bottom: 70px;
   color: white;
   font-family: cursive;
   font-size: larger;
@@ -301,6 +287,22 @@ footer {
   padding: 3px;
 }
 
+.footer-links a {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  padding-bottom: 10px;
+}
+
+.nav li a {
+  text-align: center;
+  color: white;
+}
+
+.nav li a img {
+  width: 50px;
+  height: 60px;
+}
 
 .col-12 ul li a {
   text-decoration: none;
@@ -311,19 +313,12 @@ footer {
 
 .footer-notes {
   clear: both;
-  padding-top: 80px;  
+  padding-top: 80px;
 }
 
 .footer-links {
   margin: 30px;
   padding-right: 50px;
-}
-
-.footer-links a {
-  color: white;
-  font-size: 20px;
-  margin-right: 20px;
-  padding-bottom: 10px;
 }
 
 .box {
@@ -332,17 +327,16 @@ footer {
   left: 200px;
   width: 100px;
   height: 200px;
-  background-color: #dcdcdc;  
+  background-color: #dcdcdc;
 }
 
 .design-systems {
-  /* width: 100%; */
   height: 300px;
   background-color: grey;
   position: relative;
 }
 
-.design-system-article{
+.design-system-article {
   width: 70%;
   height: 100%;
   padding: 30px 70px 30px 70px;
@@ -371,7 +365,7 @@ footer {
   align-items: center;
 }
 
-.curated-box{
+.curated-box {
   margin: 3em 3em 0 3em;
   padding: 0 3em;
   display: flex;
@@ -442,5 +436,5 @@ footer {
   text-align: center;
   color: white;
   font-size: 20px;
-  text-decoration: underline;  
+  text-decoration: underline;
 }
