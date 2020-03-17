@@ -51,7 +51,7 @@ header a {
   margin: 20px;
 }
 
-.nav li {
+.nav .li {
   margin-right: 20px;
   background-color: lightgrey;
   display: flex;
@@ -321,12 +321,12 @@ footer {
   padding-bottom: 10px;
 }
 
-.nav li a {
+.nav .li a {
   text-align: center;
   color: white;
 }
 
-.nav li a img {
+.nav .li a img {
   width: 50px;
   height: 60px;
 }
