@@ -207,6 +207,7 @@ main {
   width: 400px;
   height: 400px;
   background: #a0a0a0;
+  border-radius: 20px;
 
 }
 
@@ -233,17 +234,29 @@ main {
   width: 200px;
   height: 200px;
   background: #a0a0a0;
+  border-radius: 20px
 }
 
 .bottom-main {
   display: grid;
   grid-template-columns: auto auto;
   margin: 5%;
-}
+ }
 
 .bottom-articles {
-  display: flex
+  display: grid;
+  padding: 10%;
+  grid-template-columns: 60px auto;
+  background: linear-gradient( to bottom right, #f0f0f0, #fefefe);
 }
+
+.bottom-art-img {
+  width: 50px;
+  height: 50px;
+  background: gray;
+  border-radius: 10px;
+}
+
 
 footer {  
   height: 700px;
