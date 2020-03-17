@@ -79,7 +79,10 @@ main {
   grid-template: auto auto/ auto auto;
   color:white
 }
-
+.articles-container a {
+  color: white;
+  text-decoration: none;
+}
 .main-title {
   position: absolute;
   text-align: center;
@@ -107,7 +110,7 @@ main {
 .author {
   display: flex;
   flex-direction: row;
-  color:white;
+  /* color:white; */
   align-items: center;
   padding: 1em;
   gap:1px
