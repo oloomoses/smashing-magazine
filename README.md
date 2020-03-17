@@ -32,15 +32,15 @@ Modern browser
 👤 **Author1**
 Oloo Moses
 
-- Github: [@githubhandle](https://github.com/olooine)
+- Github: [@githubhandle](https://github.com/oloomoses)
 - Twitter: [@twitterhandle](https://twitter.com/olooine)
 - Linkedin: [linkedin](https://www.linkedin.com/in/oloo-moses-528bb1b3/)
 
 👤 **Author2**
 Giancarlo Dumani
 
-- Github: [@githubhandle](https://github.com/gdumani
-- Twitter: [@twitterhandle](https://twitter.com/gdumani1
+- Github: [@githubhandle](https://github.com/gdumani)
+- Twitter: [@twitterhandle](https://twitter.com/gdumani1)
 - Linkedin: [linkedin](https://www.linkedin.com/in/giancarlo-dumani-a7364a1a1/)
 
 ## 🤝 Contributing
