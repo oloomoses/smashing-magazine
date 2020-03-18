@@ -34,7 +34,7 @@ header a {
   color: white;
 }
 
-.nav {
+nav {
   list-style-type: none;
   width: 70%;
   display: flex;
@@ -51,12 +51,20 @@ header a {
   margin: 20px;
 }
 
-.nav .li {
+.nav-img {
+  width: 50px;
+  height: 50px;
+  margin: auto;
+  background-color: darkgray;
+}
+
+.li {
   margin-right: 20px;
   background-color: lightgrey;
   display: flex;
   flex-flow: column;
   justify-content: center;
+  text-align: center;
 }
 
 h4,
@@ -133,8 +141,10 @@ main {
   background: gray;
 }
 
-.articles img {
+.article-img {
   width: 50px;
+  height: 50px;
+  background-color: #444;
 }
 
 .articles ul {
@@ -172,7 +182,7 @@ main {
   margin-top: 40px;
   width: 50px;
   height: 50px;
-  color: red;
+  color: black;
 }
 
 .cover-arrow i {
@@ -325,16 +335,6 @@ footer {
   color: white;
 }
 
-.nav .li a {
-  text-align: center;
-  color: white;
-}
-
-.nav .li a img {
-  width: 50px;
-  height: 60px;
-}
-
 .footer-notes {
   clear: both;
   padding-top: 80px;
@@ -414,6 +414,10 @@ footer {
 .curated-article ul li {
   margin-bottom: 10px;
   font-size: 25px;
+}
+
+.curated-article ul li a {
+  color: black;
 }
 
 .curated-box2 {
