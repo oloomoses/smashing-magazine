@@ -147,10 +147,9 @@ main {
 }
 
 .cover {
-  width: 80%;
-  margin: auto;
+  margin: 5%;
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(3, auto);
   justify-items: stretch;
   grid-auto-flow: row;
 }
@@ -159,7 +158,7 @@ main {
   padding: 5%;
   background: linear-gradient(to bottom right, #e8e8e8, #f8f8f8);
   line-height: 1.5em;
-  height: 400px;
+  height: auto;
 }
 
 .cover-abstracts h4,
@@ -183,8 +182,6 @@ main {
 
 .cover-images {
   background: grey;
-  min-height: 400px;
-  grid-column: span 2;
   color: white;
   text-align: center;
   text-decoration: underline;
@@ -214,7 +211,7 @@ main {
   width: 100%;
   margin: auto;
   background: #b0b0b0;
-  line-height: 1.5em;
+  line-height: 2em;
   text-align: center;
 }
 
@@ -364,10 +361,10 @@ footer {
 }
 
 .design-system-article {
-  width: 70%;
+  width: 60%;
   height: 100%;
   padding: 30px 70px 30px 70px;
-  margin: 2em;
+  margin: 5%;
   background: lightgrey;
   display: flex;
   flex-direction: column;
@@ -380,7 +377,7 @@ footer {
   height: 400px;
   background: lightgrey;
   bottom: 2em;
-  right: 3em;
+  right: 5%;
   border-radius: 10px;
 }
 
@@ -393,15 +390,15 @@ footer {
 }
 
 .curated-box {
-  margin: 3em 3em 0 3em;
-  padding: 0 3em;
+  margin: 5%;
   display: flex;
   flex-direction: row;
 }
 
 .curated-article {
-  height: 600px;
+  height: auto;
   background-color: lightgrey;
+  padding: 1%;
   margin-right: 20px;
   border-radius: 10px;
 }
